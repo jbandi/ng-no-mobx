@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <div>
+      <a routerLink="/home">Home</a>
+    </div>
+    <app-home></app-home>
+    <hr>
+    <router-outlet></router-outlet>
+  `,
+  styles: ['']
 })
 export class AppComponent {
-  title = 'ng-no-mobx';
 }

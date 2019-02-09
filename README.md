@@ -1,3 +1,14 @@
+# Purpose
+
+This project is based on the Article *MobX for Angular and Ionic Apps* (https://levelup.gitconnected.com/how-to-manage-state-in-ionic-2-apps-with-mobx-df659de6a8aa).
+
+This project demonstrates that Angular has transparent reactivity when using default change detection.  
+There is no need to use MobX to get transparent reactivity!
+
+The advantage of using MobX is only that changes in the model/store would trigger change detatction of the  components event if they are set to `ChangeDetectionStrategy.OnPush`. 
+
+
+
 # NgNoMobx
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
