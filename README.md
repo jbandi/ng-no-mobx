@@ -5,7 +5,7 @@ This project is based on the Article *MobX for Angular and Ionic Apps* (https://
 This project demonstrates that Angular has transparent reactivity when using default change detection.  
 There is no need to use MobX to get transparent reactivity!
 
-The advantage of using MobX is only that changes in the model/store would trigger change detection of the  components event if they are set to `ChangeDetectionStrategy.OnPush`. 
+The advantage of using MobX over Angular default change detection is only that changes in the model/store would trigger change detection of the  components event if they are set to `ChangeDetectionStrategy.OnPush`. 
 
 
 
